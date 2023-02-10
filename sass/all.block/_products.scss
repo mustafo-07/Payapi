@@ -1,0 +1,29 @@
+.simple-ul-ux,
+.products {
+    // @include flex-center;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.simple-ul-ux__text-h2,
+.title {
+    color: $main-text-color;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.simple-ul-ux__text-p,
+.text {
+    max-width: 445px;
+    padding-top: 24px;
+    color: $colar-4;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}

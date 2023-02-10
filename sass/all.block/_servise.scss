@@ -1,0 +1,53 @@
+.servise {
+    padding-top: 100px;
+}
+
+.servise-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+.servise-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.servise-card-img {
+    padding-bottom: 32px;
+}
+
+.servise-card-title {
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: $main-text-color;
+}
+
+.servise-card-p {
+    max-width: 223px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: $colar-4;
+}
+
+.servise-form {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.servise-form__text__h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: $colar-4;
+}
